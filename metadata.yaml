@@ -1,0 +1,16 @@
+composer: Tůma, František Ignác Antonín
+title: Messa della morte
+id: (A-Wn Mus.Hs.16934)
+genre: requiem
+scoring: S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+sources:
+  1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.16934
+    type: manuscript copy
+    date: 1742
+    rism:
+    url: http://data.onb.ac.at/rec/AC14297556
+github: tuma-messa-della-morte
+imslp: 
+notes:
