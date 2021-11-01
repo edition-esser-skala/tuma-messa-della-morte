@@ -71,14 +71,16 @@
        (stretchability . 0))
 
   bookTitleMarkup = \markup {
-    \fill-line {
-      \line {
-        \fontsize #3 {
-          \fromproperty #'header:title
-        }
-        \fromproperty #'header:subtitle
-      }
-    }
+   \fill-line {
+     \line {
+       \fontsize #3 {
+         \with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
+         \hspace #3
+         \fromproperty #'header:title
+       }
+       \fromproperty #'header:subtitle
+     }
+   }
   }
 
   system-separator-markup = \markup {
@@ -685,10 +687,14 @@ tocLabelLong = #(define-music-function
 
 
 tempoRequiem = \tempoMarkup "Adagio"
+tempoTeDecet = \tempoMarkup "Larghetto"
+tempoRequiemB = \tempoMarkup "[Adagio]"
 
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"
+\include "notes/clno1.ly"
+\include "notes/clno2.ly"
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"
