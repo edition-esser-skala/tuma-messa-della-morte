@@ -217,3 +217,172 @@ RequiemTenoreLyrics = \lyricmode {
   ce -- at, lu -- ce -- at
   e -- is. %163 finis
 }
+
+KyrieTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
+    \mvTr es4.\fE^\tutti es8 d4 c
+    c( d) c4. es!8
+    d2 c4 r
+    R1*2 %5
+    r8 \mvTr c\pE^\solo f([ es)] d4 r
+    r8 b as([ g)] c4 c
+    c8[ b16 a] b8[ a16 g] a2
+    g4 r r2
+    \mvTr d'4.\fE^\tutti d8 d4 d %10
+    d( c) d b!
+    es( d) d r
+    R1*2
+    r8 \mvTr b\pE^\solo as([ g)] c4 r %15
+    r8 c b([ a)] d4 r
+    r8 d c([ h)] es4. d8
+    c4. b8 a!4 d
+    d r r2
+    \mvTr es4.\fE^\tutti es8 d4 c %20
+    c( d) c4. es!8
+    d2 c8 es d c
+    r d c b r c b as
+    r d c[( h] c2)
+    h8 g' f[ es] d([ c) h( a)] %25
+    g4. f8 es4. d16[ c] \noBreak
+    d2\trill c\fermata \bar "||"
+    \tempoChriste \mvTr d'4\pE^\solo d8 d d4 g,8 c \noBreak
+    c[ d16( c)] b([ c) a( c)] b4 r
+    r2 r4 cis %30
+    d8[( c16 b] a[ b g a]) b4 h
+    c8([ b16 a] g[ a f g] a2)
+    b4 r r8 d es([ d)]
+    cis d d([ cis)] d4 r
+    R1*2 %36
+    d4 d8 d d4 c8 b!
+    a[ \slurDashed c16( b]) a[( b) g( a]) \slurSolid b4 r
+    r2 r8 f' es d
+    r es d([ c)] d4 r8 b %40
+    b([ es16 d] c[ d b c)] a8 b b([ a)]
+    b4 r d d8 d
+    d4 c8 c c4 b8 a
+    \slurDashed b16([ a) b( c]) \slurSolid b4 a8 r r es'
+    d c r d c b r4 %45
+    r8 a d([ c)] b b a4
+    g r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoKyrieB \mvTr c4.\fE^\tutti c8 h4 b \noBreak
+    a4. h8 c[ g] c4~ %50
+    c h c8 c g[ a]
+    b[ f b a] b4. a16[ g]
+    a2 g4 g
+    f( d) es! as
+    g2 g %55
+    R1
+    c4. c8 h4 b
+    a4. h8 c[ g] c4~
+    c8[ h16 c] d4 g,2
+    r d'4. d8 %60
+    h4 b a( d)
+    es!2. es4
+    f2 f4 f
+    es4.( c8) a!4 r
+    d4. d8 h4 b %65
+    a4. h8 c[ g] c4~
+    c b a2
+    d1
+    R
+    r8 d a[ h] c[ g] c4~ %70
+    c b2 a4
+    h2 c4 r
+    R1
+    r2 c4. c8
+    h4 b a4.( h8) %75
+    c4. d8 es4( d8[ c)]
+    d4 r r8 d a([ h]
+    c[ g)] c4~ c8 c g[( a])
+    h4 c c( h)
+    c1~ %80
+    c~
+    c~
+    c~
+    c\fermata \bar "|." %84 finis
+  }
+}
+
+KyrieTenoreLyrics = \lyricmode {
+  Ky -- ri -- e e --
+  lei -- son, e --
+  lei -- son,
+
+  e -- lei -- son, %6
+  e -- lei -- son, e --
+  lei -- _ _
+  son.
+  Ky -- ri -- e e -- %10
+  lei -- son, e --
+  lei -- son,
+
+  e -- lei -- son, %15
+  e -- lei -- son,
+  e -- lei -- son, e --
+  lei -- _ _ _
+  son.
+  Ky -- ri -- e e -- %20
+  lei -- son, e --
+  lei -- son, e -- lei -- son,
+  e -- lei -- son, e -- lei -- son,
+  e -- lei --
+  son, e -- lei -- _ %25
+  son, e -- lei -- _
+  _ son.
+  Chri -- ste e -- lei -- son, e --
+  lei -- _ son,
+  e -- %30
+  lei -- son, e --
+  lei --
+  son, e -- lei --
+  son, e -- lei -- son.
+
+  Chri -- ste e -- lei -- son, e -- %37
+  lei -- _ son,
+  e -- lei -- son,
+  e -- lei -- son, e -- %40
+  lei -- son, e -- lei --
+  son. Chri -- ste e --
+  lei -- son, e -- lei -- son, e --
+  lei -- _ son, e --
+  lei -- son, e -- lei -- son, %45
+  e -- lei -- son, e -- lei --
+  son.
+
+  Ky -- ri -- e e --
+  lei -- _ _ _ %50
+  _ son, e -- lei --
+  _ _ _
+  _ son, e --
+  lei -- son, e --
+  lei -- son, %55
+
+  Ky -- ri -- e e --
+  lei -- _ _ _
+  _ son,
+  Ky -- ri -- %60
+  e e -- lei --
+  son, e --
+  lei -- son, e --
+  lei -- son,
+  Ky -- ri -- e e -- %65
+  lei -- _ _ _
+  _ _
+  son,
+
+  e -- lei -- _ _ %70
+  _ _
+  _ son,
+
+  Ky -- ri --
+  e e -- lei -- %75
+  son, e -- lei --
+  son, e -- lei --
+  son, __ e -- lei --
+  son, e -- lei --
+  son. __ %80
+  %84 FINIS
+}

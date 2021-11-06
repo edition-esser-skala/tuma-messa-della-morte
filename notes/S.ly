@@ -252,6 +252,123 @@ RequiemSopranoLyrics = \lyricmode {
   _ _ is. %163 finis
 }
 
-% Ky -- ri -- e e -- lei -- son.
-% Chri -- ste e -- lei -- son.
-% Ky -- ri -- e e -- lei -- son.
+KyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
+    \mvTr c'4.\fE^\tutti c8 h4 b
+    a4. h8 c[ g] c4~
+    c h c r
+    R1*6 %9
+    \mvTr b4.\fE^\tutti b8 a4 g %10
+    g( c) b! b
+    a2 g4 r
+    R1
+    r2 r8 \mvTr d'\pE^\solo c([ b)]
+    es4 r r8 es des([ c)] %15
+    f4 r r8 f es([ d)]
+    g2~ g8 f es4~
+    es8[ d] c4~ c8[ d16 es] d8[ c]\trill
+    h4 r r2
+    \mvTr c4.\fE^\tuttiE c8 h4 b %20
+    a4. h8 c[ g] c4~
+    c h c r8 c
+    b as r b as g r as
+    g f r g \tieDashed g2~
+    g1~ %25
+    g~ \noBreak
+    g2 \tieSolid g\fermata \bar "||"
+    \tempoChriste R1*20 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoKyrieB R1*4 %52
+    \mvTr c4.\fE^\tutti c8 h4 b
+    a4. h8 c[ g] c4~
+    c h c8 c g([ a]) %55
+    b[ f b a] b4. a16[ g]
+    a2 g8 d' d4
+    c4. d8 es es, r4
+    r8 d' a[ h] c[ g] c4~
+    c b a2 %60
+    r r8 d a[ h]
+    c[ c,] c'4 b8 es b[ c]
+    d[ d,] d'4 c8 f c[ d]
+    es[ es,] es'2 d8[ c]
+    b4 a g8 g b([ c] %65
+    d2) g,4 r
+    r2 d'4. d8
+    h4 b a4. h8
+    c[ g] c2 b4
+    a2 g %70
+    R1
+    r2 c4. c8
+    h4 b a h8 c
+    c4( h) c c
+    d2 c4 c %75
+    c1
+    h4 g g2~
+    g1~
+    g
+    g8 c g[ as] b2~ %80
+    b4 as8[ g] as2
+    g8[ as] b4 as2~
+    as4 g8[ f] g2~
+    g1\fermata \bar "|." %84 FINIS
+  }
+}
+
+KyrieSopranoLyrics = \lyricmode {
+  Ky -- ri -- e e --
+  lei -- _ _ _
+  _ son.
+
+  Ky -- ri -- e e -- %10
+  lei -- son, e --
+  lei -- son,
+
+  e -- lei --
+  son, e -- lei -- %15
+  son, e -- lei --
+  son, __ e -- lei --
+  _ _
+  son.
+  Ky -- ri -- e e -- %20
+  lei -- _ _ _
+  _ son, e --
+  lei -- son, e -- lei -- son, e --
+  lei -- son, e -- lei --
+
+  son. %27
+
+  Ky -- ri -- e e -- %53
+  lei -- _ _ _
+  _ son, e -- lei -- %55
+  _ _ _
+  _ son, e -- lei --
+  son, e -- lei -- son,
+  e -- lei -- _ _
+  _ son, %60
+  e -- lei --
+  _ _ son, e -- lei --
+  _ _ son, e -- lei --
+  _ _ _
+  _ _ son, e -- lei -- %65
+  son,
+  Ky -- ri --
+  e e -- lei -- _
+  _ _ _
+  _ son, %70
+
+  Ky -- ri --
+  e e -- lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %75
+  lei --
+  son, e -- lei --
+
+
+  son, e -- lei -- _ %80
+  _ _
+  _ _ _
+  _ son. __
+  %84 FINIS
+}

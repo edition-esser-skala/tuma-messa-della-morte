@@ -130,3 +130,77 @@ RequiemViolinoI = {
     d16 g, c4 h8 c2\fermata \bar "|." %163 finis
   }
 }
+
+KyrieViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoKyrie
+    c'4.\fE c8 h4 b
+    a4. h8 c g c4~
+    c h c8 g' f([ es)]
+    r f es([ d!)] r es d([ c)]
+    r des c([ h)] c4 r %5
+    R1*3
+    r8 d\fE c([ b)] r c b([ a)]
+    g4. g8 fis4 f %10
+    e4. fis8 g d g4~
+    g fis g r8 d'
+    as'( g) r c, g'( f) r b,
+    f'( es) r a,! b4 r
+    R1*4 %18
+    r8 g\fE f([ es)] r f es([ d)]
+    es c'4 c8 h4 b %20
+    a4. h8 c g c4~
+    c h c r8 c
+    \once \slurDashed b( as) r b as( g) r as
+    \once \slurDashed g( f) r g \tieDashed g2~
+    g1~ %25
+    g~ \noBreak
+    g \tieSolid \bar "||"
+    \tempoChriste R1*6 %33
+    r2 r8 a'\fE g([ f)]
+    r g f([ e)] r f es([ d)] %35
+    r e d([ cis)] d4 r
+    R1
+    r2 r8 f es([ d)]
+    r es d([ c)] d4 r
+    R1*2 %41
+    r8 f, es([ c)] d4 r
+    R1*4 %46
+    r8 d' c([ b)] r c b([ a)] \noBreak
+    b a16 g a4\trill g r\fermata \bar "||"
+    \tempoKyrieB R1*4 %52
+    \mvTr c4.\fE c8 h4 b
+    a4. h8 c g c4~
+    c h c8 c g a %55
+    b f b a b4. a16 g
+    a2 g8 d' d4
+    c4. d8 es4 r
+    r8 d a h c g c4~
+    c b a2 %60
+    r r8 d a h
+    c c, c'4 b8 es b c
+    d d, d'4 c8 f c d
+    es es, es'2 d8 c
+    b4 a g8 g b c %65
+    d2 g,4 r
+    r2 d'4. d8
+    h4 b a4. h8
+    c g c2 b4
+    a2 g %70
+    R1
+    r2 c4. c8
+    h4 b a h8 c
+    c4 h c c
+    d2 c %75
+    c1
+    h4 g \tieDashed g2~
+    g1~
+    g
+    g8 c g as b2~ %80
+    b4 \tieSolid as8 g as2
+    g8 as b4 as2~
+    as4 g8 f \once \tieDashed g2~
+    g1\fermata \bar "|." %84 FINIS
+  }
+}

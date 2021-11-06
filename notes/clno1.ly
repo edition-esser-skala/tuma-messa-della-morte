@@ -35,3 +35,41 @@ RequiemClarinoI = {
     R1\fermata \bar "|." %163 finis
   }
 }
+
+KyrieClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoKyrie
+    g''4.\fE g8 g4 g
+    g f g c,
+    d2 c4 r
+    R1*6 %9
+    g'4\fE g8 g fis4 g %10
+    g a \pao d, g
+    g fis g r
+    R1*7 %19
+    g4.\fE g8 g4 g %20
+    g f g c,
+    d2 c4 r
+    R1
+    r4 r8 g' g2
+    g4 r r2 %25
+    R1 \noBreak
+    g4 g8 g g2\fermata \bar "||"
+    \tempoChriste R1*20 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoKyrieB R1*6 %54
+    g4.\fE g8 g2 %55
+    R1*18 %73
+    g4. g8 g4 g
+    f4. g8 \pao c,4 r %75
+    g' g8 g g4 f
+    g r r2
+    R1
+    r2 g4 g8 g
+    g4 r r2 %80
+    R1*2
+    r2 g4 g8 g
+    g1\fermata \bar "|." %84 finis
+  }
+}

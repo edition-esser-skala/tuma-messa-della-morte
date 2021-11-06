@@ -222,3 +222,119 @@ RequiemBassoLyrics = \lyricmode {
   a lu -- ce -- at
   e -- is. %163 finis
 }
+
+KyrieBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoKyrie
+    \mvTr c4.\fE^\tutti c8 g'4 e
+    f( d) es as
+    f( g) c, r
+    R1*6 %9
+    \mvTr g4.\fE^\tutti g8 d'4 h %10
+    c( a) b es!
+    c( d) g, r
+    R1*2
+    r8 \mvTr g'\pE^\solo f([ es)] as4 r %15
+    r8 a g([ f)] b4 r
+    r8 h a([ g)] c4. b8
+    as4.( g8 fis2)
+    g4 r r2
+    \mvTr c,4.\fE^\tutti c8 g'4 e %20
+    f( d) es as
+    f( g) c, r8 as'
+    g f r g f es r f
+    es d r g c,([ d es f)]
+    g4 g, g2~ %25
+    g1~ \noBreak
+    g2 c\fermata \bar "||"
+    \tempoChriste R1*20 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoKyrieB R1*6 %54
+    \mvTr g'4.\fE^\tutti g8 e4 es %55
+    d4. fis8 g[ d] g4~
+    g fis g8 g d[ e]
+    f[ c] f4 es4. d16[ c]
+    d2 c
+    R1 %60
+    r8 g' d[ e] f[ f,] f'4
+    es8 as es[ f] g[ g,] g'4
+    f8 b f[ g] as[ as,] as'4
+    g c, d2~
+    d g,8 g'4 g8 %65
+    fis4 f e4. fis8
+    g[ d] g2 fis4
+    g8 g, b![ c] d[ a] d4
+    c8[ b!] a4 g2
+    R1 %70
+    r8 g' d[ e] f[ c] f4~
+    f es8[ d] c2
+    R1
+    g'4. g8 e4 es
+    d4. e8 f[ c] f4 %75
+    es8[ d c b] as2
+    g1
+    g
+    g
+    c %80
+    c
+    \once \tieDashed c~
+    c
+    c\fermata \bar "|." %84 FINIS
+  }
+}
+
+KyrieBassoLyrics = \lyricmode {
+  Ky -- ri -- e e --
+  lei -- son, e --
+  lei -- son.
+
+  Ky -- ri -- e e -- %10
+  lei -- son, e --
+  lei -- son,
+
+  e -- lei -- son, %15
+  e -- lei -- son,
+  e -- lei -- son, e --
+  lei --
+  son.
+  Ky -- ri -- e e -- %20
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son, e --
+  lei -- son, e -- lei --
+  son, e -- lei -- %25
+
+  son.
+
+  Ky -- ri -- e e -- %55
+  lei -- _ _ _
+  _ son, e -- lei --
+  _ _ _ _
+  _ son,
+  %60
+  e -- lei -- _ _
+  son, e -- lei -- _ _
+  son, e -- lei -- _ _
+  son, e -- lei --
+  son, Ky -- ri -- %65
+  e e -- lei -- _
+  _ _ _
+  son, e -- lei -- _ _
+  _ _ son,
+  %70
+  e -- lei -- _ _
+  _ son,
+
+  Ky -- ri -- e e --
+  lei -- _ _ _ %75
+  _ _
+  son,
+  e --
+  lei --
+  son, %80
+  e --
+  lei --
+
+  son. %84 FINIS
+}

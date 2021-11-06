@@ -337,3 +337,181 @@ RequiemBassFigures = \figuremode {
   <9 _->4 <8 \t> <7 _!>2
   <6 5>8 <\t 4> <5 \t> <\t _!> r2 %163 finis
 }
+
+KyrieOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoKyrie
+    \mvTr c4.\fE-\tutti c8 g'4 e
+    f d es as
+    f g c, r8 c'-\solo
+    b( as) r b as( g) r as
+    g( f) r g c,4. c8\pE %5
+    f2 b
+    es, es4 c
+    d g8 b, c a d d,
+    g4 r8 es'\fE d( c) r d
+    g,2-\tutti d'4 h %10
+    c a b es!
+    c d g, r8 g'-\solo
+    f( es) r f es( d) r es
+    d( c) r d g,4 r
+    r8 g'\pE f([ es)] as4 r %15
+    r8 a g([ f)] b4 r
+    r8 h a([ g)] c4. b?8
+    as4. g8 fis2
+    g4 r8 as\fE g( f) r g
+    c,2-\tutti g'4 e %20
+    f d es as
+    f g c, r8 as'
+    g( f) r g f( es) r f
+    es( d) r g c, d es f
+    g2 \tieDashed g,~-\tasto %25
+    g1~ \noBreak
+    g2 \tieSolid c\fermata \bar "||"
+    \tempoChriste \mvTr g'4\pE-\solo f es4. es8 \noBreak
+    d4. fis8 g4 a
+    b4. b8 a4 a, %30
+    d2 g,
+    c f,
+    b4 a g2
+    a8 d a' a, d4 r8 d'\fE
+    c!( b) r c b( a) r b %35
+    a( g) r a d,4\pE c!
+    b4. h8 c4. es8
+    f4 f, b r8 g'\fE
+    f( es) r f b,4 r8 g'\pE
+    f( es) r f b,4 d %40
+    es2 f8 b, f' f,
+    b4 es8\fE f b,4.\pE h8
+    c2 g4. d'8
+    g,4 b8 g d' g f!([ es)]
+    r f es([ d)] r es c4 %45
+    d fis g d
+    g, r8 es'\fE d( c) r d \noBreak
+    g, b c d g,4 r \fermata \bar "||"
+    \clef "treble_8" \tempoKyrieB \mvTr c'4.\fE-\tutti c8 h4 b \noBreak
+    a4. h8 c g c4~ %50
+    c h c8 c g a
+    b f b a b4. a16 g
+    a2 g
+    f4 d es! as
+    \clef bass g4. g8 e4 es %55
+    d4. fis8 g d g4~
+    g fis g8 g d e
+    f c f4 es4. d16 c
+    d2 c
+    r \clef "treble_8" d'4. d8 %60
+    h \clef bass g[ d e] f f, f'4
+    es8 as es f g g, g'4
+    f8 b f g as as, as'4
+    g c, \once \tieDashed d2~
+    d g,8 g'4 g8 %65
+    fis4 f e4. fis8
+    g d g2 fis4
+    g8 g, b! c d a d4
+    c8 b! a4 g2
+    \clef "treble_8" r8 d'' a h c g c4~ %70
+    c8 \clef bass g[ d e] f c f4~
+    f es8 d c2
+    \clef treble << { h''4 b a4 h8 c } \\ { d,4. e8 f4. es?8 } >>
+    \clef bass g,4. g8 e4 es
+    d4. e8 f c f4 %75
+    es8 d c b as2
+    \tieDashed g1~-\tasto
+    g~
+    g
+    c~ %80
+    c~
+    c~
+    c~
+    c\fermata \bar "|." %84 FINIS
+  }
+}
+
+KyrieBassFigures = \figuremode {
+  r2 <_!>4 <6 5->
+  <9> <5>8 <6!> <6>2
+  <6 5 _->4 <_!> r2
+  <_->8 <6>4 \bo <[_!]>4 \bc <[6]>4.
+  r8 <6- [_-]>4 <[5!] _!>8 r2 %5
+  <_->1
+  r2 <6>4 <6!>8 <5>
+  <7 _+>4. <[6]>8 <6 5>4 <_+>
+  r2 r8 <6>4 <_+>8
+  r2 \bo <[_+ \l]>4 \bc <[6 5!]> %10
+  <[9] _!> <5!>8 <6\\> <6>2
+  <6 5>4 <_+>2.
+  <_->8 \bo <[6]>4 \bc <[_!]> <6>4.
+  r8 <6->4 <[5!] _+>8 r2
+  r8 <6>2.. %15
+  r8 <6>2..
+  r8 <[6]>2..
+  r2 \bo <[7 _!]>4 <6>8 \bc <[5 \l]>
+  \bo <[_! \l]>2 <_->8 \bc <[6 _-]>4 <_!>8
+  r2 <_!>4 <6 5-> %20
+  <9> <5>8 <6!> <6>2
+  <6 5 [_-]>4 <_!>2.
+  r8 <6 _->4 r8 <_-> <6>4 <_->8
+  r <6>4 <_!>8 r2
+  <_!>1 %25
+  r
+  r
+  r4 <6> <7> <6>
+  <7 _+>4. \bo <[6]> \bc <[7]>4
+  <6>2 <7 _+>4 \bassFigureExtendersOn <6 _+>8 <5! _+> \bassFigureExtendersOff %30
+  <_!>4 <_+> <_-> <_!>
+  <_-> <_!>2.
+  r4 <5!>8 <6\\> <5>4 <6>8 <5>
+  <7 [5!] _+>8 \bo <[_!]> <5! 4> \bc <[\t] _+> r2
+  <_->8 <6>4 <_!> <6>4. %35
+  r8 <6!>4 <[5!] _+>8 r4 <[6]>
+  <7> <6>8 <5!> <10- 9>4 <\t 8>
+  r1
+  r8 <6>2..
+  r2. <6>4 %40
+  r2 <7>4 <4>8 <3>
+  r4 <6>2.
+  <10 9>4 <\t 8> <6 4> <5 3>8 <_+>
+  r4 <6> <_+>4. <6>8
+  r4. <6> <6>8 <5> %45
+  <_+>4 \bo <[6]>8 \bc <[5]> <9> <8> <4> <_+>
+  r2 r8 <6>4 <[_+]>8
+  r <[6]> <6 5> <[_+]> r2
+  r1
+  r %50
+  <5>4 <6> <3!> <6->8 <5>
+  <3>4 <\t>8 <6\\> <6> <3> <6>4
+  <10 7> <\t 6\\> <_!> <_->
+  r <5>8 <6!> <6>2
+  <5 4>4 <\t _!> <6> <\t> %55
+  <6->4. <[6]>8 r2
+  <4 2>4 <6 5!> <_!> <6->
+  <[3]>4. <4!>8 <6>2
+  <7 _+>8 <6! \t> <5 _!> <6 \t> <_!>2
+  r <5 4>4 <\t _+> %60
+  <[6]>8 <_!> <6->4 <6>2
+  q q
+  <6 _-> <6>
+  <6> <10+ 9>4 <\t 8>
+  <6 5>8 <\t 4> <5 \t> <\t _+> <_!>4 <_-> %65
+  \bo <[6]>4 \bc <[\t]>8 <4> <6>2
+  <4>4 <_-> <5 2> <6>
+  <_!> <6> <_+> <5 _!>8 <6! \t>
+  <_!>4 <5!>8 <6\\> <5 4>4 <\t _->
+  r8 <5 4> <6!>4 <5 4> <\t _-> %70
+  <2>8 <5 4> <6->4 <5 4> <\t 3>
+  <4! 2> <\t \t>8 <6!> <_!>4 <_->
+  r1
+  <4>4 <_!> <6> <\t>
+  <6!> <6->8 <6 5>2 <4!>8 %75
+  <6>2 <7>4 <6>
+  <_!>1
+  r
+  r
+  r %80
+  r
+  r
+  r
+  r %84 FINIS
+}

@@ -62,3 +62,59 @@ RequiemFagotto = {
     R1\fermata \bar "|." %163 finis
   }
 }
+
+KyrieFagotto = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoKyrie
+    c4.\fE c8 g'4 e
+    f d es as
+    f g c, r
+    R1*6 %9
+    g2\fE d'4 h %10
+    c a b es!
+    c d g, r
+    R1*7 %19
+    c2\fE g'4 e %20
+    f d es as
+    f g c, r8 as'
+    g f r g f es r f
+    es d r g c, d es f
+    g2 \tieDashed g,~ %25
+    g1~ \noBreak
+    g2 \tieSolid c\fermata \bar "||"
+    \tempoChriste R1*20 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoKyrieB R1*6 %54
+    g'4.\fE g8 e4 es %55
+    d4. fis8 g d g4~
+    g fis g8 g d e
+    f c f4 es4. d16 c
+    d2 c
+    R1 %60
+    r8 g' d e f f, f'4
+    es8 as es f g g, g'4
+    f8 b f g as as, as'4
+    g c, \once \tieDashed d2~
+    d g,8 g'4 g8 %65
+    fis4 f e4. fis8
+    g d g2 fis4
+    g8 g, b! c d a d4
+    c8 b! a4 g2
+    R1 %70
+    r8 g' d e f c f4~
+    f es8 d c2
+    R1
+    g'4. g8 e4 es
+    d4. e8 f c f4 %75
+    es8 d c b as2
+    g1~
+    g~
+    g
+    c %80
+    c
+    \once \tieDashed c~
+    c
+    c\fermata \bar "|." %84 FINIS
+  }
+}

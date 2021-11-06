@@ -65,3 +65,62 @@ RequiemTromboneI = {
     es4 d c2\fermata \bar "|." %163 finis
   }
 }
+
+KyrieTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoKyrie
+    g'4.\fE g8 g4 g
+    g f g es!
+    as g g r
+    R1*6 %9
+    g4.\fE g8 fis4 f %10
+    e4. fis8 g d g4~
+    g fis g r
+    R1*7 %19
+    g4.\fE g8 g4 g %20
+    g f g es!
+    as g g8 g f es
+    r f es d r es d c
+    r f es d es2
+    d4. g8 f es d c %25
+    h c d4~ d8 g, c4~ \noBreak
+    c8 h16 a h4 c2\fermata \bar "||"
+    \tempoChriste R1*20 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoKyrieB R1*2 %50
+    g'4.\fE g8 e4 es
+    d4. fis8 g d g4~
+    g fis g8 g d e
+    f c f4 es4. d16 c
+    d2 c4 c %55
+    f d d d
+    es d d r
+    r2 g4. g8
+    fis4 f e4. fis8
+    g d g2 fis4 %60
+    g8 d f g a2
+    g8 es g as b2
+    as8 f as b c4 as
+    b8 g g4 fis8 g a4~
+    a8 g4 fis8 g4 r %65
+    R1*2
+    g4. g8 fis4 f
+    e4. fis8 g d g4~
+    g f2 es4 %70
+    d2 c
+    g'4. g8 e4 es
+    d4. e8 f c f es
+    d2 g4. es!8
+    f4. g8 a4. g8 %75
+    g4 g g f
+    g8 g d es f2~
+    f4 es8 d es2
+    d8 g, es'4 d2
+    c4 r r8 g' d e %80
+    f c f4~ f8 f c d
+    e f g2 f8 e
+    f2~ f4 e8 d
+    e1\fermata \bar "|." %84 FINIS
+  }
+}
