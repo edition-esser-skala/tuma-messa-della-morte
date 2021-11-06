@@ -1,9 +1,10 @@
 \version "2.22.0"
 
-\include "scores/full_score.ly"
+% \include "scores/full_score.ly"
 
 % \include "scores/cnto.ly"
 % \include "scores/fag.ly"
+% \include "scores/clno12.ly"
 % \include "scores/trb1.ly"
 % \include "scores/trb2.ly"
 % \include "scores/vl1.ly"

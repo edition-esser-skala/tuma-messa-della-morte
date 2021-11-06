@@ -45,6 +45,7 @@
 \book {
   \bookpart {
     \header {
+      number = "1"
       title = "R E Q U I E M"
     }
     \paper { indent = 2\cm }
@@ -52,7 +53,20 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Cornetto"
-          \Cornetto
+          \RequiemCornetto
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "2"
+      title = "K Y R I E"
+    }
+    \score {
+      <<
+        \new Staff {
+          \KyrieCornetto
         }
       >>
     }

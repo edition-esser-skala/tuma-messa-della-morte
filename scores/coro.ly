@@ -62,6 +62,7 @@
 \book {
   \bookpart {
     \header {
+      number = "1"
       title = "R E Q U I E M"
     }
     \paper { indent = 2\cm }
@@ -70,33 +71,73 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \Soprano }
+            \new Voice = "Soprano" { \dynamicUp \RequiemSoprano }
           }
-          \new Lyrics \lyricsto Soprano \SopranoLyrics
+          \new Lyrics \lyricsto Soprano \RequiemSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \Alto }
+            \new Voice = "Alto" { \dynamicUp \RequiemAlto }
           }
-          \new Lyrics \lyricsto Alto \AltoLyrics
+          \new Lyrics \lyricsto Alto \RequiemAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \Tenore }
+            \new Voice = "Tenore" { \dynamicUp \RequiemTenore }
           }
-          \new Lyrics \lyricsto Tenore \TenoreLyrics
+          \new Lyrics \lyricsto Tenore \RequiemTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \Basso }
+            \new Voice = "Basso" { \dynamicUp \RequiemBasso }
           }
-          \new Lyrics \lyricsto Basso \BassoLyrics
+          \new Lyrics \lyricsto Basso \RequiemBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \Organo
+          \RequiemOrgano
         }
-        \new FiguredBass { \BassFigures }
+        \new FiguredBass { \RequiemBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "2"
+      title = "K Y R I E"
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Soprano"
+            \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Alto"
+            \new Voice = "Alto" { \dynamicUp \KyrieAlto }
+          }
+          \new Lyrics \lyricsto Alto \KyrieAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Tenore"
+            \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
+          }
+          \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "Basso" { \dynamicUp \KyrieBasso }
+          }
+          \new Lyrics \lyricsto Basso \KyrieBassoLyrics
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "Organo"
+          \KyrieOrgano
+        }
+        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }

@@ -45,15 +45,27 @@
 \book {
   \bookpart {
     \header {
+      number = "1"
       title = "R E Q U I E M"
     }
-    \paper { indent = 2\cm page-count = #2 }
+    \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Bassi"
-          \Organo
+          \RequiemOrgano
         }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "2"
+      title = "K Y R I E"
+    }
+    \score {
+      <<
+        \new Staff { \KyrieOrgano }
       >>
     }
   }
