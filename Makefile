@@ -1,7 +1,7 @@
 # change the following variables according to the current project
 project = Tuma_Messa_della_morte
-notes = cnto fag trb1 trb2 vl1 vl2 S A T B org
-scores = full_score cnto fag trb1 trb2 vl1 vl2 coro b org
+notes = cnto fag clno1 clno2 trb1 trb2 vl1 vl2 S A T B org
+scores = full_score cnto fag clno12 trb1 trb2 vl1 vl2 coro b org
 
 # general definitions
 .DEFAULT_GOAL := info
