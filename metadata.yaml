@@ -1,16 +1,26 @@
 composer: Tůma, František Ignác Antonín
 title: Messa della morte
-id: (A-Wn Mus.Hs.16934)
+subtitle: Requiem e Kyrie
 genre: requiem
 scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 clno (C), 2 trb, 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Wn
     shelfmark: Mus.Hs.16934
-    type: manuscript copy
     date: 1742
     rism:
     url: http://data.onb.ac.at/rec/AC14297556
-github: tuma-messa-della-morte
+    primary: true
 imslp: Messa_della_morte_(Tůma,_František_Ignác_Antonín)
 notes:
+parts:
+  cnto: Cornetto
+  fag: Fagotto
+  clno12: Clarino I, II in C
+  trb1: Trombone I
+  trb2: Trombone II
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
