@@ -10,17 +10,7 @@ sources:
     date: 1742
     rism:
     url: http://data.onb.ac.at/rec/AC14297556
-    primary: true
+    principal: true
 imslp: Messa_della_morte_(Tůma,_František_Ignác_Antonín)
-notes:
 parts:
-  cnto: Cornetto
-  fag: Fagotto
   clno12: Clarino I, II in C
-  trb1: Trombone I
-  trb2: Trombone II
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi

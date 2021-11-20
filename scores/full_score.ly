@@ -1,20 +1,12 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "R E Q U I E M"
-    }
-    \tocSection "1" "Requiem"
+    \section "1" "Requiem"
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -60,25 +52,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \RequiemSoprano }
           }
           \new Lyrics \lyricsto Soprano \RequiemSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \RequiemAlto }
           }
           \new Lyrics \lyricsto Alto \RequiemAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \RequiemTenore }
           }
           \new Lyrics \lyricsto Tenore \RequiemTenoreLyrics
@@ -103,11 +89,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "K Y R I E"
-    }
-    \tocSection "2" "Kyrie"
+    \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<

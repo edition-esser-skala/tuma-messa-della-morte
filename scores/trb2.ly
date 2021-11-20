@@ -1,53 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "trb 2"
-  }
-}
+#(define option-instrument-name "trb 2")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "R E Q U I E M"
-    }
+    \section "1" "Requiem"
+    \addTocEntry
     \paper { indent = 2.5\cm }
     \score {
       <<
@@ -59,10 +19,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "K Y R I E"
-    }
+    \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new Staff {
