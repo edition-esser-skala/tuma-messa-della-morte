@@ -1,8 +1,11 @@
-composer: Tůma, František Ignác Antonín
+composer:
+  last: Tůma
+  first: František Ignác Antonín
 title: Messa della morte
 subtitle: Requiem e Kyrie
 genre: requiem
 scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 clno (C), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Wn
@@ -10,6 +13,7 @@ sources:
     date: 1742
     rism:
     url: http://data.onb.ac.at/rec/AC14297556
+    license: public domain
     principal: true
 imslp: Messa_della_morte_(Tůma,_František_Ignác_Antonín)
 parts:
